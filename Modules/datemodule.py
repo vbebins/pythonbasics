@@ -17,3 +17,20 @@ print(datetime.date.today())
 dt=datetime.date(2023,8,19)
 print(dt)
 
+#to import only date class
+from datetime import date
+
+todaydate=date.today()
+print(todaydate)
+#to get only day, month, year
+print(todaydate.day)
+print(todaydate.month)
+print(todaydate.year)
+
+from datetime import time
+
+print(time())
+
+#to get the current time
+current_time = now.strftime("%H:%M:%S")
+print("Current Time =", current_time)
