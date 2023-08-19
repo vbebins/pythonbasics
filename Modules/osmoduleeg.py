@@ -11,3 +11,6 @@ print(os.path.exists("osmoduleeg.py"))
 
 #to check file/path size
 print(os.path.getsize("osmoduleeg.py"))
+
+#to get the current user name
+print(os.system("whoami"))
