@@ -14,3 +14,4 @@ print(os.path.getsize("osmoduleeg.py"))
 
 #to get the current user name
 print(os.system("whoami"))
+

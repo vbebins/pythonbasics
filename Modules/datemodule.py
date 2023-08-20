@@ -1,6 +1,9 @@
 import datetime
 
+from datetime import  timedelta
+
 now=datetime.datetime.now() 
+
 
 '''
 dir() - used to get list of props and methods of a module 
@@ -34,3 +37,10 @@ print(time())
 #to get the current time
 current_time = now.strftime("%H:%M:%S")
 print("Current Time =", current_time)
+
+
+#To Add day/month/year/min to the current date
+print(now+timedelta(minutes=10))
+
+
+
