@@ -34,6 +34,7 @@ The repository covers the following topics:
 - File Handling
 - Exception Handling
 - Object-Oriented Programming Basics
+- Modules - Sys modules, OS modules, User Defined modules
 
 Each topic is organized in a separate directory with relevant code examples and explanations.
 

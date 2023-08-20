@@ -39,7 +39,7 @@ current_time = now.strftime("%H:%M:%S")
 print("Current Time =", current_time)
 
 
-#To Add day/month/year/min to the current date
+#To Add day/month/year/min
 print(now+timedelta(minutes=10))
 
 

@@ -8,7 +8,12 @@ def AddNumbers(a,b):
     c=a+b
     return c
 
-x=10
-y=20
 
-print(AddNumbers(x,y))
+def AddNumbersThree(a,b):
+    c=a+b
+    return c
+
+# x=10
+# y=20
+
+# print(AddNumbers(x,y))
