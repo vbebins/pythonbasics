@@ -1,5 +1,5 @@
 '''
-Syntax : try except else finally
+Syntax : try except else finally raise
 
 try:
 some code
@@ -9,6 +9,7 @@ else:
 if no exception
 finally:
 always execute
+raise => throw exception
 '''
 
 try:
